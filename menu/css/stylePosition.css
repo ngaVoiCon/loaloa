@@ -1,0 +1,169 @@
+body{
+   font-family: Arial, Tahoma;
+   font-size: 12px;
+}
+
+#main{
+   width: 1000px;
+   padding: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+#head{
+   height: 100px;
+   background-color: #F5F5F5;
+   border: 1px solid DodgerBlue;
+   margin-bottom:5px;
+
+}
+.logo{
+  margin-top: 0px;
+  width: 150px;
+  height: 100px;
+  float: left;
+
+
+}
+#left{
+
+    width: 150px;
+    height: 700px;
+    border: 1px solid DodgerBlue;
+    background-color: #FFC1C1;
+    float: left;
+    font-family:Florence, cursive;
+    color: #CD5555;
+
+    
+}
+div a{
+   text-decoration: none;
+}
+hr{
+  border-color: DodgerBlue;
+}
+#content{
+   width: 846px;
+    min-height: 700px;
+    border: 1px solid DodgerBlue;
+    float: right;
+    background-color: LightCyan;
+    position: relative;
+
+    
+}
+.nen{
+  width: 846px;
+  height: 100px;
+
+
+
+}
+
+.nuocCam{
+  position: absolute;
+  padding-left: 291px;
+  padding-bottom: 0px;
+  padding-top: 107px;
+
+}
+
+#right{
+    width: 234px;
+    min-height: 700px;
+    border: 1px solid DodgerBlue;
+    float:left;
+    margin-bottom: 1px;
+}
+
+.traSua{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+
+
+}
+
+#footer{
+    height: 100px;
+    border: 1px solid DodgerBlue;
+    background-color: #F8F8FF;
+    clear: both;
+
+}
+nav.subTra{
+  display: block;
+  list-style-type: none;
+
+
+}
+     
+
+      nav{
+          background-color:#47bdec;
+      }
+      nav a{
+          display:inline-block;
+          text-align: center;
+          padding:10px;
+          font-size:20px;
+          color:white;
+          text-decoration:none;
+
+      }
+      nav a:hover{
+          background-color:#333;
+      }
+.menu {
+    width:1000px;
+    margin:0px auto;
+    background:#bf5c71;
+    height: 50px;
+    margin-top: 0px auto;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:Florence, cursive;
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+    text-decoration:none;
+}
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    color:white;
+}
+.menu li:hover .subTra {
+    z-index:1;
+    opacity:1;
+}
+.subTra {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+.subTra li {
+    display:block;
+    font-size:16px;
+}
+.subTra li a {
+    padding:10px 30px;
+    display:block;
+}
